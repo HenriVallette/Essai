@@ -4,5 +4,6 @@
     <h4 class="infos">{{ todoText }} -- Statut : {{ todoStatut }}</h4>
     <input type="checkbox"
             (change)="changeValue()"
-            [checked]="todoStatut === 'Done'">
+            [checked]="todoStatut === 'Done'"
+            class="checkbox">
   </li>

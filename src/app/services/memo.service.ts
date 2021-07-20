@@ -6,19 +6,19 @@ export class MemoService {
 
     memos = [
         {
-            text: 'Salade',
+            text: 'Faire une machine',
             statut: 'Done'
         },
         {
-            text: 'Saucisses',
+            text: 'Changer les draps',
             statut: 'Undone'
         },
         {
-            text: 'Salade',
+            text: 'Faire les courses',
             statut: 'Undone'
         },
         {
-            text: 'Salade',
+            text: 'Changer les piles de la télécommande',
             statut: 'Done'
         },
     ];
