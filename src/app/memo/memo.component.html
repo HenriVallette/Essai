@@ -1,0 +1,8 @@
+<li [ngClass]="{'list-group-item': true,
+                'list-group-item-success': todoStatut === 'Done',
+                'list-group-item-info': todoStatut === 'Undone'}">
+    <h4 class="infos">{{ todoText }} -- Statut : {{ todoStatut }}</h4>
+    <input type="checkbox"
+            (change)="changeValue()"
+            [checked]="todoStatut === 'Done'">
+  </li>

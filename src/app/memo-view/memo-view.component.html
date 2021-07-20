@@ -1,0 +1,6 @@
+<h2>Ma TODO liste</h2>
+<ul>
+    <app-memo *ngFor="let todo of memo"
+            [todoText]="todo.text" [todoStatut]="todo.statut"></app-memo>
+</ul>
+<button class="btn btn-success" routerLink="/addMemo">Ajouter une tâche</button>
